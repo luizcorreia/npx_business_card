@@ -1,0 +1,40 @@
+{
+  "name": "luizcorreia",
+  "version": "1.0.0",
+  "description": "A business card for Luiz Correia (@luizcorreia)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizcorreia/npx_business_card.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm",
+    "card",
+    "npx",
+    "npx",
+    "card",
+    "business",
+    "card"
+  ],
+  "author": "Luiz Correia <luiz@luizcorreia.eti.br> (https://luizcorreia.eti.br)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luizcorreia/npx_business_card/issues"
+  },
+  "homepage": "https://github.com/luizcorreia/npx_business_card#readme",
+  "dependencies": {
+    "boxen": "^5.0.1",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "cli-spinners": "^2.6.0",
+    "inquirer": "^8.1.2",
+    "open": "^8.2.1",
+    "ora": "^5.4.1",
+    "request": "^2.88.2"
+  }
+}
