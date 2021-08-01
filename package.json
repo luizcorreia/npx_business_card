@@ -3,8 +3,12 @@
   "version": "1.0.1",
   "description": "A business card for Luiz Correia (@luizcorreia)",
   "main": "index.js",
+  "bin": {
+    "luizcorreia": "./index.js"
+  },
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "pub": "npm version minor & npm publish"
   },
   "repository": {
     "type": "git",
