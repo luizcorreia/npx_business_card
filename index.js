@@ -46,11 +46,14 @@ const questions = [
             text: " Downloading Resume",
             spinner: cliSpinners.material,
           }).start();
-          let pipe = request(`${SITE}/resume`).pipe(
-            fs.createWriteStream("./anmol-resume.html")
-          );
+          let pipe = request(
+            "https://luizcorreia.s3.sa-east-1.amazonaws.com/luizcorreia-en-2021.pdf"
+          ).pipe(fs.createWriteStream("./luizcorreia-en-2021.pdf"));
           pipe.on("finish", function () {
-            let downloadPath = path.join(process.cwd(), "anmol-resume.html");
+            let downloadPath = path.join(
+              process.cwd(),
+              "luizcorreia-en-2021.pdf"
+            );
             console.log(`\nResume Downloaded at ${downloadPath} \n`);
             open(downloadPath);
             loader.stop();
