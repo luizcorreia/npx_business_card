@@ -21,8 +21,8 @@ const TWITTER = "luiz__correia";
 const LINKEDIN = "luizgcorreia";
 const SITE = "https://luizcorreia.eti.br";
 const GITHUB = "luizcorreia";
-const TITLE = "Creative Enginner";
-const COMPANY = "Rethink";
+const TITLE = "Cloud Architect - Creative Engineer";
+const COMPANY = "Smiles";
 const NAME = "Luiz Correia";
 
 const questions = [
